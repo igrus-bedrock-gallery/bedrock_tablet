@@ -12,7 +12,7 @@ function Policy() {
         뒤로가기
       </button>
 
-      <div style={styles.policy_explain_container}>
+      <div style={styles.policyExplainContainer}>
         <h1 style={styles.title}>이용약관</h1>
 
         <div style={styles.policyBox}>

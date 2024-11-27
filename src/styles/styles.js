@@ -61,7 +61,7 @@ const styles = {
     padding: "20px",
     borderRadius: "15px",
     marginTop: "20px",
-    maxHeight: "500px",
+    maxHeight: "350px",
     overflowY: "auto",
   },
 
