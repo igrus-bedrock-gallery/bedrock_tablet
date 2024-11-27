@@ -100,7 +100,7 @@ function Policy() {
       </div>
 
       <div style={styles.actionButtonsContainer}>
-        <label>
+        <label style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
           <input
             type="checkbox"
             checked={agree}

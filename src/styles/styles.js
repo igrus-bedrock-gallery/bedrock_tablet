@@ -42,6 +42,24 @@ const styles = {
     marginBottom: "2rem",
   },
 
+  jobListContainer: {
+    borderRadius: "20px",
+    padding: "30px",
+    margin: "20px",
+    maxWidth: "800px",
+    width: "90%",
+    boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+  },
+
+  /* PolicyBox content styles */
+  jobListBox: {
+    padding: "20px",
+    borderRadius: "15px",
+    marginTop: "20px",
+    maxHeight: "500px",
+    overflowY: "auto",
+  },
+
   /* Policy container styles */
   policyExplainContainer: {
     backgroundColor: "rgba(255, 255, 255, 0.1)",
