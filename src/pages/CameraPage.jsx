@@ -174,15 +174,10 @@ function Main({ inputKey }) {
       )}
 
       {captured && !isCapturing && (
-        <div style={styles.retakeButtonContainer}>
+        <div>
           <button onClick={retakePhoto} style={styles.retakeButton}>
             다시 찍기
           </button>
-        </div>
-      )}
-
-      {captured && !isCapturing && (
-        <div style={styles.uploadButtonContainer}>
           <button onClick={handleUpload} style={styles.uploadButton}>
             전송하기
           </button>
